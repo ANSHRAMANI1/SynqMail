@@ -61,7 +61,7 @@ SynqMail/
 ### 1. Clone and install
 
 ```bash
-git clone [https://github.com/ANSHRAMANI1/SynqMail.git](https://github.com/ANSHRAMANI1/SynqMail.git)
+git clone [Contact me on Upwork](https://www.upwork.com/freelancers/~0169dbb8a7f7cf38e6) [https://github.com/ANSHRAMANI1/SynqMail.git](https://github.com/ANSHRAMANI1/SynqMail.git)
 cd SynqMail
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
