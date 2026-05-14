@@ -1,0 +1,38 @@
+# FlowAI Routing Rules
+# For each email category, define where it should be sent.
+#
+# destinations: list of [slack, notion, csv] — can combine multiple
+# slack_channel: display label for the Slack message (informational, webhook routes to one channel)
+
+categories:
+  support_request:
+    destinations: [slack, notion]
+    slack_channel: "#support-triage"
+    notion_tag: "Support"
+
+  billing_issue:
+    destinations: [slack, notion]
+    slack_channel: "#billing-alerts"
+    notion_tag: "Billing"
+
+  sales_lead:
+    destinations: [notion, slack]
+    slack_channel: "#sales-leads"
+    notion_tag: "Lead"
+
+  job_application:
+    destinations: [notion]
+    notion_tag: "Hiring"
+
+  newsletter:
+    destinations: []  # discard — no action
+
+  internal:
+    destinations: [csv]
+
+  spam:
+    destinations: []  # discard
+
+  other:
+    destinations: [csv]
+    notion_tag: "Other"
