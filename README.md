@@ -1,4 +1,4 @@
-# FlowAI — AI-Powered Email Automation Pipeline
+# SynqMail — AI-Powered Email Automation Pipeline
 
 > Automatically read, classify, summarize, and route incoming emails using GPT-4o — then send them to Slack or Notion without lifting a finger.
 
@@ -6,7 +6,7 @@
 
 ## The Problem
 
-Support teams and operations managers receive hundreds of emails daily. Manually triaging, summarizing, and forwarding emails to the right person or tool costs hours every week. FlowAI automates this entirely — read once, classified and routed automatically.
+Support teams and operations managers receive hundreds of emails daily. Manually triaging, summarizing, and forwarding emails to the right person or tool costs hours every week. SynqMail automates this entirely — read once, classified and routed automatically.
 
 ## Demo
 
@@ -44,7 +44,7 @@ Support teams and operations managers receive hundreds of emails daily. Manually
 ## Project Structure
 
 ```
-flowai/
+SynqMail/
 ├── main.py                     # Entrypoint — run once or start scheduler
 ├── processors/
 │   ├── __init__.py
@@ -66,8 +66,8 @@ flowai/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/yourusername/flowai.git
-cd flowai
+git clone https://github.com/yourusername/SynqMail.git
+cd SynqMail
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
