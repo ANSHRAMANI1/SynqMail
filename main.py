@@ -1,4 +1,4 @@
-"""FlowAI — AI Email Automation Pipeline — entrypoint."""
+"""SynqMail — AI Email Automation Pipeline — entrypoint."""
 
 import argparse
 import csv
@@ -109,7 +109,7 @@ def process_inbox(dry_run: bool = False) -> None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="FlowAI — AI Email Automation Pipeline")
+    parser = argparse.ArgumentParser(description="SynqMail — AI Email Automation Pipeline")
     parser.add_argument("--run-once", action="store_true", help="Process inbox once and exit")
     parser.add_argument("--schedule", action="store_true", help="Start the scheduler")
     parser.add_argument("--dry-run", action="store_true", help="Preview actions without sending")
