@@ -8,11 +8,6 @@
 
 Support teams and operations managers receive hundreds of emails daily. Manually triaging, summarizing, and forwarding emails to the right person or tool costs hours every week. SynqMail automates this entirely — read once, classified and routed automatically.
 
-## Demo
-
-<!-- Add your demo GIF or video link here -->
-> 📹 Demo video coming soon
-
 **What it does in 3 steps:**
 1. Connects to your Gmail/IMAP inbox and reads unread emails
 2. GPT-4o classifies each email (support request, billing, spam, sales lead, etc.) and generates a summary
@@ -171,7 +166,7 @@ Categories are fully customizable via the routing rules config.
 
 This was built as a portfolio project demonstrating end-to-end AI automation. I build custom versions for clients with their specific email categories, integrations (HubSpot, Salesforce, Monday.com, etc.), and deployment needs.
 
-**Want this for your team?** [Contact me on Upwork](#)
+**Want this for your team?** [Contact me on Upwork](https://www.upwork.com/freelancers/~0169dbb8a7f7cf38e6)
 
 ## License
 
