@@ -1,4 +1,4 @@
-# SynqMail — AI-Powered Email Automation Pipeline
+# SynqMail — Intelligent Email Workflow Automation Platform
 
 > Automatically read, classify, summarize, and route incoming emails using GPT-4o — then send them to Slack or Notion without lifting a finger.
 
